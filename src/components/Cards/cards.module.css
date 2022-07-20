@@ -1,0 +1,17 @@
+.cardGroup{
+    margin: 5.5em;
+    column-gap: 2.5em; 
+    row-gap: 2.5em;
+    color: #004AAD;
+}
+
+.cardText{
+    overflow: scroll;
+    height: 5em;
+}
+
+.img{
+
+   height: 15em;
+    object-fit: cover;
+}

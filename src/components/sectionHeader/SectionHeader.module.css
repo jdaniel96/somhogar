@@ -1,0 +1,16 @@
+.SectionHeader{
+
+ 
+    margin-bottom: 2em;
+    position: relative;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.858),
+        hsla(0, 0%, 0%, 0.477)
+      ),
+      url("https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-size: cover;
+    background-position: center;
+
+   
+}
