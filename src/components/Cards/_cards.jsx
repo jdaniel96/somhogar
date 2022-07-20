@@ -23,7 +23,7 @@ export const PropertyCard = (props) =>{
      fetch(url).then(response => response.json()).then(data => setProperties(data))
   },[url]);
 
-  console.log(properties);
+  // console.log(properties);
 
 
 

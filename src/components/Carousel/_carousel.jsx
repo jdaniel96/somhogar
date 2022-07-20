@@ -7,7 +7,7 @@ export const CarouselSomhogar = ({data}) => {
     //pass in the data object
     // console.log(data.data.attributes.photos.data);
     const {photos} = data.data.attributes;
-    console.log(photos.data)
+    // console.log(photos.data)
     // console.log('hhe')
     // https://somhogaradmin.herokuapp.com/api/properties/${photo.attributes.url}`
     // https://somhogaradmin.herokuapp.com${value.attributes.photos.data[0].attributes.url}

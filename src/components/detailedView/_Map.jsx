@@ -5,7 +5,7 @@ export const Map = function({dataMap}) {
   // console.log(props.dataMap.data.attributes.coordinates)
 
   const {coordinates} = dataMap.data.attributes;
-  console.log(coordinates);
+  // console.log(coordinates);
  
   const position = coordinates.split(',');
 
