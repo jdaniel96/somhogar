@@ -21,7 +21,7 @@ function App() {
         <Route path="/rent/property/:id" element={<PropertyView />} />
         <Route path="/sell/property/:id" element={<PropertyView />} />
         <Route path="/properties/property/:id" element={<PropertyView />} />
-        <Route path="/property/:id" Navigate element={<PropertyView />} />
+        <Route path="/property/:id" element={<PropertyView />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

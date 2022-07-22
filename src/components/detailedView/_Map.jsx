@@ -11,7 +11,7 @@ export const Map = function({dataMap}) {
 
     return (
      
-      <MapContainer style={{height:'100%'}}center={position} zoom={13} scrollWheelZoom={false}>
+      <MapContainer style={{height:'33.2em'}}center={position} zoom={13} scrollWheelZoom={false}>
           <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

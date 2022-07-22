@@ -25,6 +25,10 @@ export const PropertyCard = (props) =>{
 
   // console.log(properties);
 
+  
+
+ 
+
 
 
     return(
@@ -48,8 +52,8 @@ export const PropertyCard = (props) =>{
 
         {properties.data && properties.data.map((value, index) =>
 
-        <Col style={{justifySelf:'center'}}>
-        <Card className='shadow' key={index} style={{padding: '0', margin:'0' }}>
+        <Col>
+        <Card className='shadow' key={index} style={{padding: '0', marginBottom:'4em' }}>
           <Card.Img className={cardStyles.img} variant="top" src={value.attributes.photos.data[0].attributes.url}/>
           <Card.Body>
             <Card.Title style={{height:'2.2em'}}>{value.attributes.name}</Card.Title>

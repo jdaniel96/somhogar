@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { LoadingSpinner } from "../Cards/_cards";
 import { Description } from "./_Description";
-import { CarouselSomhogar } from "../Carousel/_carousel";
+import { CarouselSomhogar } from "./_carousel";
 import {Row, Col, Container} from "react-bootstrap";
 import { Map } from "./_Map"
 
@@ -45,22 +45,20 @@ export const DetailedView = function() {
   
         
         {property.data && 
-            
             <Container>
             <h1 style={{textAlign:'center', marginTop:'1em', marginBottom:'0.5em', color:'#880808'}}>{property.data.attributes.name}</h1>
 
 
-            <Row className="row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-1">
+            <Row style={{marginBottom:'3em'}} className="row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-1">
                 <Col>
                     <CarouselSomhogar data={property}/>
                 </Col>
                 <Col>
                     <Map dataMap={property}/>
-                </Col>   
+              </Col>   
             </Row>
-            <Description ok={property}/>
+                <Description ok={property}/>
             </Container>
-            
         }
         </div>
     )
