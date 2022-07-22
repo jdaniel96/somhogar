@@ -1,5 +1,5 @@
-import {MapContainer, TileLayer }  from 'react-leaflet';
-import { CircleMarker } from 'react-leaflet';
+import {MapContainer, TileLayer, CircleMarker }  from 'react-leaflet';
+
 
 export const Map = function({dataMap}) {
   // console.log(props.dataMap.data.attributes.coordinates)

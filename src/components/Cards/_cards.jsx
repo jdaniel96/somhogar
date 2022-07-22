@@ -53,11 +53,11 @@ export const PropertyCard = (props) =>{
         {properties.data && properties.data.map((value, index) =>
 
         <Col>
-        <Card className='shadow' key={index} style={{padding: '0', marginBottom:'4em' }}>
+        <Card className='shadow' key={index} style={{padding: '0 0 0.3em 0', margin:'0 1em 1em 1em' }}>
           <Card.Img className={cardStyles.img} variant="top" src={value.attributes.photos.data[0].attributes.url}/>
           <Card.Body>
             <Card.Title style={{height:'2.2em'}}>{value.attributes.name}</Card.Title>
-            <Card.Text style={{height:'10em',overflow:'scroll'}}>
+            <Card.Text style={{height:'7em',overflow:'scroll'}}>
             {value.attributes.description}
             </Card.Text>
             <Link to={`property/${value.id}`} variant="primary">Ver más</Link> 
