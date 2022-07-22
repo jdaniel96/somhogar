@@ -14,7 +14,7 @@ export const HeroSection = function() {
 
             <div className={HeroStyles.heroText}>
             <h1 style={{textAlign:'center'}}>Somhogar Realty</h1>
-            <h3>Tu oportunidad de vivir bien</h3>
+            <h3 style={{textAlign: 'center', marginTop:'0.2em'}}>Tu oportunidad de vivir bien</h3>
             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit incidunt possimus, asperiores aliquam a vitae accusamus amet adipisci repudiandae distinctio beatae aliquid aspernatur corporis, totam ut doloremque. Magni, cumque! Voluptates!</p> */}
     
             </div>
