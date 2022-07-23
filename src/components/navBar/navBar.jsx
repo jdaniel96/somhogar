@@ -9,7 +9,7 @@ export const NavBar = function(){
   //TODO show navbar when leaving hero section with background color
     return(
         <>
- <Navbar collapseOnSelect expand="lg" style={{backgroundColor: '#990000', padding:'1em'}} sticky='top' variant="dark" width='8.5em'>
+ <Navbar collapseOnSelect expand="lg" style={{backgroundColor: 'rgb(102 179 187)', padding:'1em'}} sticky='top' variant="dark" width='8.5em'>
   <Container>
   <Navbar.Brand><Link style={{textDecoration: 'none', color:'white'}} to='/'>SomHogar Realty</Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
