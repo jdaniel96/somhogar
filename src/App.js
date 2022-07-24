@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 import { HomeView } from "./views/HomeView";
 import { Route, Routes } from "react-router-dom";
 import { NavBar } from "./components/navBar/navBar";
