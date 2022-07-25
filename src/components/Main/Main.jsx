@@ -14,7 +14,7 @@ export const Main = function() {
     return(
             <div>
             <h1 style={{textAlign:'center', marginBottom: '1em'}}>ÚLTIMAS PROPIEDADES</h1>  
-            <PropertyCard url={process.env.REACT_APP_URL_ALL_PROPERTIES_URL}/>
+            <PropertyCard url={process.env.REACT_APP_URL_FIRST_6_PROPERTIES_URL}/>
             <div style={{justifyItems: 'center'}}>
             <Link to='/properties' style={{textAlign:'center', marginBottom: '1em', display:'inherit', marginTop:'3em'}}>VER MÁS</Link>  
             </div>
