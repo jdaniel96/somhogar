@@ -51,11 +51,11 @@ export const DetailedView = function() {
 
             <Row style={{marginBottom:'3em'}} className="row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-1">
                 <Col>
-                    <CarouselSomhogar data={property}/>
-                </Col>
-                <Col>
                     <Map dataMap={property}/>
               </Col>   
+                <Col>
+                    <CarouselSomhogar data={property}/>
+                </Col>
             </Row>
                 <Description ok={property}/>
             </Container>
@@ -63,3 +63,5 @@ export const DetailedView = function() {
         </div>
     )
 }
+
+
